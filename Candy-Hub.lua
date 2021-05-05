@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local CandyHub = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -10,10 +6,9 @@ local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
 local TextBox = Instance.new("TextBox")
 
---Properties:
 
 CandyHub.Name = "CandyHub"
-CandyHub.Parent = game.CoreGui
+CandyHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 main.Name = "main"
 main.Parent = CandyHub
@@ -22,7 +17,6 @@ main.Position = UDim2.new(0.0440967381, 0, 0.0538720638, 0)
 main.Size = UDim2.new(0, 209, 0, 269)
 main.Active = true
 main.Draggable = true
-main.Resizable = true
 
 TextLabel.Parent = main
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
