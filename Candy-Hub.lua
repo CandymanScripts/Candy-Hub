@@ -4,7 +4,7 @@ local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
-local TextBox = Instance.new("TextBox")
+local TextBox = Instance.new("TextButton")
 
 
 CandyHub.Name = "CandyHub"
